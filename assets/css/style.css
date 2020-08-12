@@ -391,66 +391,104 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Resume
+# Education
 --------------------------------------------------------------*/
-.resume .resume-title {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #050d18;
+.education {
+  margin-bottom: 60px;
 }
 
-.resume .resume-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid #1f5297;
-  position: relative;
-}
-
-.resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #050d18;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item h5 {
-  font-size: 16px;
-  background: #e4edf9;
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item ul {
-  padding-left: 20px;
-}
-
-.resume .resume-item ul li {
-  padding-bottom: 10px;
-}
-
-.resume .resume-item:last-child {
-  padding-bottom: 0;
-}
-
-.resume .resume-item::before {
-  content: "";
+.education .role {
+  font-size: 1.25rem;
   position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
+  right: 38px;
+  top: 35px;
 }
 
+.education li a {
+  margin-right: 0;
+  color: #333;
+  border-bottom: 2px solid #ffab40;
+}
+
+.education li a:hover {
+  color: #333;
+  font-weight: 500;
+}
+
+.education .education-content {
+  padding-bottom: 30px;
+}
+
+.education .education-content p {
+  padding: 5px 0 0;
+}
+
+.education h5 {
+  font-size: 1.5rem;
+  margin-bottom: -0.5rem;
+  margin-top: 2rem;
+}
+
+.education h6 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.education-action span {
+  font-size: 85%;
+  color: #666;
+}
+
+.education ul {
+  margin-bottom: 0;
+}
+
+.education ul li {
+  line-height: 200%;
+  list-style-type: disc;
+  margin-left: 24px;
+}
+
+.education ul li li {
+  color: #666;
+  font-size: 13px;
+}
+
+.education .education-title {
+  font-size: 24px;
+}
+
+.education .education-content .education-title {
+  line-height: 2.5rem;
+}
+
+.education i.right {
+  margin-left: 10px;
+}
+
+.education.large .education-content p {
+  color: inherit;
+  margin: 0;
+  padding: 30px 0;
+}
+
+.education.large .education-image {
+  height: 230px;
+}
+
+.education.large .education-content {
+  height: auto;
+}
+
+.education.medium .education-image {
+  height: 240px;
+}
+
+.education-action a.btn-floating {
+  margin-bottom: 0;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
