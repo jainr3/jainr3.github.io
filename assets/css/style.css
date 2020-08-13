@@ -613,6 +613,8 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  position: absolute;
+  top: 25%;
 }
 
 .services .title a {
