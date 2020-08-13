@@ -1,10 +1,3 @@
-/**
-* Template Name: iPortfolio - v2.0.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -23,14 +16,6 @@ a:hover {
   text-decoration: none;
 }
 
-a.hoverline {
-  border-bottom: 3px solid transparent !important;
-  padding: 3px 3px 0 3px;
-  transition: 0.25s all;
-  -moz-transition: 0.25s all;
-  -webkit-transition: 0.25s all;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
@@ -46,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #149ddd;
+  background: #000;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -61,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #2eafec;
+  background: #000;
   transition: background 0.2s ease-in-out;
 }
 
@@ -78,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #000;
   overflow-y: auto;
 }
 
@@ -310,9 +295,9 @@ section {
   content: '';
   position: absolute;
   display: block;
-  width: 50px;
-  height: 3px;
-  background: #149ddd;
+  width: 100%;
+  height: 10%;
+  background: #000;
   bottom: 0;
   left: 0;
 }
@@ -404,7 +389,7 @@ section {
 --------------------------------------------------------------*/
 .education .icon-box {
   text-align: center;
-  background: #040b14;
+  background: #000;
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
   margin: 10px
@@ -459,7 +444,7 @@ section {
 }
 
 .education .icon-box:hover {
-  background: #042e5f;
+  background: #000;
   border-color: #1c7d32;
 }
 
@@ -479,7 +464,7 @@ section {
   color: #12d640;
 }
 /*--------------------------------------------------------------
-# Portfolio
+# Projects
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -715,7 +700,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #149ddd !important;
+  background-color: #000 !important;
 }
 
 @media (max-width: 767px) {
@@ -960,7 +945,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Projects Details
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
@@ -1058,7 +1043,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #000;
 }
 
 #footer .copyright {
