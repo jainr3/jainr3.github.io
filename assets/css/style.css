@@ -309,51 +309,23 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #173b6c;
-}
-
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  padding-bottom: 10px;
-}
-
-.about .content ul i {
-  font-size: 20px;
-  padding-right: 2px;
-  color: #149ddd;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# Objective
---------------------------------------------------------------*/
-.objective {
+.about {
   padding-bottom: 30px;
 }
 
-.objective .count-box {
+.about .count-box {
   padding: 30px;
   width: 100%;
 }
 
-.objective .count-box i {
+.about .count-box i {
   display: block;
   font-size: 44px;
   color: #149ddd;
   float: left;
 }
 
-.objective .count-box span {
+.about .count-box span {
   font-size: 48px;
   line-height: 40px;
   display: block;
@@ -362,7 +334,7 @@ section {
   margin-left: 60px;
 }
 
-.objective .count-box p {
+.about .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
@@ -370,7 +342,7 @@ section {
   color: #122f57;
 }
 
-.objective .count-box a {
+.about .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
@@ -380,7 +352,7 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.objective .count-box a:hover {
+.about .count-box a:hover {
   color: #1f5297;
 }
 
