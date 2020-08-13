@@ -522,6 +522,10 @@ section {
   border-left: 1px solid #37b3ed;
 }
 
+.portfolio .portfolio-wrap .portfolio-title {
+  text-align: center;
+}
+
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
