@@ -1,9 +1,3 @@
-/**
-* Template Name: iPortfolio - v2.0.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 !(function($) {
   "use strict";
 
@@ -131,16 +125,16 @@
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item',
+    var projectsIsotope = $('.projects-container').isotope({
+      itemSelector: '.projects-item',
       layoutMode: 'fitRows'
     });
 
-    $('#portfolio-flters li').on('click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
+    $('#projects-flters li').on('click', function() {
+      $("#projects-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
-      portfolioIsotope.isotope({
+      projectsIsotope.isotope({
         filter: $(this).data('filter')
       });
       aos_init();
@@ -171,8 +165,8 @@
     }
   });
 
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
+  // Projects details carousel
+  $(".projects-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
