@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #000;
+  background: #149ddd;
   transition: background 0.2s ease-in-out;
 }
 
@@ -572,6 +572,7 @@ section {
 .services .title {
   margin-left: 80px;
   font-weight: 700;
+  margin-bottom: 15px;
   font-size: 18px;
   position: absolute;
   top: 25%;
@@ -620,7 +621,7 @@ section {
 }
 
 .references .references-item .quote-icon-left, .references .references-item .quote-icon-right {
-  color: #000;
+  color: #fff;
   font-size: 26px;
 }
 
@@ -641,19 +642,19 @@ section {
   font-style: italic;
   margin: 0 15px 15px 15px;
   padding: 20px;
-  background: #fff;
+  background: #000;
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  color: #000;
+  color: #fff;
 }
 
 .references .references-item p::after {
   content: "";
   width: 0;
   height: 0;
-  border-top: 20px solid #fff;
+  border-top: 20px solid #000;
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   position: absolute;
@@ -694,18 +695,18 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #000;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #000;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -718,14 +719,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #fff;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #fff;
 }
 
 .contact .info .email p {
