@@ -149,7 +149,7 @@
   // References carousel (uses the Owl Carousel library)
   $(".references-carousel").owlCarousel({
     autoplay: true,
-    autoplayTimeout:10000,
+    autoplayTimeout:20000,
     dots: true,
     loop: true,
     responsive: {
