@@ -538,7 +538,6 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services-row {
-  background: #fff;
   padding: 15px 10px;
 }
 
@@ -557,12 +556,12 @@ section {
 }
 
 .services .icon i {
-  color: #fff;
+  color: #000;
   font-size: 24px;
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #000;
 }
 
 .services .icon-box:hover .icon i {
@@ -579,7 +578,7 @@ section {
 }
 
 .services .title a {
-  color: #000;
+  color: #fff;
 }
 
 .services .title a:hover {
