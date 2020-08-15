@@ -572,6 +572,7 @@ section {
 
 .projects .projects-wrap .projects-title {
   text-align: center;
+  padding-top: 10px;
 }
 
 .projects .projects-wrap:hover::before {
