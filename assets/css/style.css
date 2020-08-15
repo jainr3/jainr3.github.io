@@ -857,6 +857,7 @@ section {
 
 .breadcrumbs ol li + li {
   padding-left: 10px;
+  padding-right:55px;
 }
 
 .breadcrumbs ol li + li::before {
@@ -937,7 +938,6 @@ section {
 }
 
 .projects-details .projects-description h2 {
-  width: 50%;
   font-size: 26px;
   font-weight: 400;
   margin-bottom: 20px;
