@@ -430,6 +430,59 @@ section {
 .education .icon-box:hover h4 a, .education .icon-box:hover p {
   color: #12d640;
 }
+
+.education .logo-box {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+}
+
+.education .logo {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  transition: 0.3s;
+  margin-left: 15px;
+}
+
+.education .logo i {
+  color: #000;
+  font-size: 24px;
+}
+
+.education .logo-box:hover .logo {
+  background: #000;
+}
+
+.education .logo-box:hover .logo i {
+  color: #149ddd;
+}
+
+.education .title {
+  margin-left: 95px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  top: 25%;
+}
+
+.education .title a {
+  color: #fff;
+}
+
+.education .title a:hover {
+  color: #149ddd;
+  text-decoration: underline;
+}
+
+.education .description {
+  margin-left: 95px;
+  line-height: 24px;
+}
+
 /*--------------------------------------------------------------
 # Projects
 --------------------------------------------------------------*/
